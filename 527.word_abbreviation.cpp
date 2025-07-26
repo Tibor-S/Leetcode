@@ -2,7 +2,6 @@
 #include <functional>
 #include <string>
 #include <unordered_map>
-#include <unordered_set>
 #include <vector>
 using std::vector;
 using std::string;
