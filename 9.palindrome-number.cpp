@@ -14,7 +14,7 @@ public:
     bool isPalindrome(int x) {
         if (x < 0) return false;
         vector<int> digits {};
-        int i = 1, j = pow(10, log10(x));
+        int i = 1, j = pow(10, floor(log10(x)));
         while (i < j) {
             if ((x / i) % 10 != (x / j) % 10) 
                 return false;
