@@ -24,7 +24,6 @@ public:
                 (int) std::distance(nums.begin(), ub) - 1
             };
         }
-    
     }
 };
 // @lc code=end
